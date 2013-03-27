@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contact Us</title>
+<meta name="" content="">
+<link rel="stylesheet" type="text/css" media="all" href="css/contact.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+</head>
+<body>
+	<div id = "contact" class = "round border">
+		<h1>Contact Us!</h1>
+		
+		<p>This contact form comes with only 2 simple files that are well documented and easy to understand to make it simple to fit your website design.</p>
+		
+		<h4>Please fill out the form below to contact us!.</h4>
+		
+		<div class = "alerts">
+			
+		</div>
+		
+		<form  action = "contact.php" method = "POST" enctype="application/x-www-form-urlencoded" id ="contact-form">
+			<label class="left"><span class = "required">*</span>Your Name</label>
+			<input class = "round border name" type="text" name = "name" value = "John Doe" onfocus="this.value = ''"/>
+			
+			<label class="left"><span class = "required">*</span>Your Email</label>
+			<input class = "round border email" type="text" name = "email" value = "Your@Email.com" onfocus="this.value = ''"/>
+			<label class="left"><span class = "required">*</span>The Subject</label>
+			<input class = "round border subject" type="text" name = "subject" value = "Your Subject" onfocus="this.value = ''"/>
+			
+			<label class="left"><span class = "required">*</span>The Message</label>
+			<textarea class = "round border message" name = "message" onclick="this.value = ''">Your Message Goes Here!</textarea>
+			
+			<label class="top"><span class = "required">*</span>Are You Human</label>
+			<label class="left">4 + 3 = </label>
+			<input class = "human round border" type="text" name = "captcha" onclick="this.value = ''"/>
+			<input class = "btn round border" type="submit" name = "submit" value = "submit" />
+		</form>
+	</div>
+</body>
+</html>
