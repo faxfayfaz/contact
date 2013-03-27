@@ -3,11 +3,6 @@
 This is a simple PSR compliant autoloader
 
 
-## Author
-
-[Florian Eckerstorfer](http://florianeckerstorfer.com)
-
-
 ## Example
 
 Example (http://rosecitydevelopment.com/sitejuju.com/contact/contact.html)
